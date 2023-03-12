@@ -13,4 +13,4 @@ ENV CASC_JENKINS_CONFIG=${JENKINS_HOME}/jenkinsAsCode
 
 USER jenkins
 
-RUN jenkins-plugin-cli --plugins "blueocean docker-workflow configuration-as-code job-dsl git config-file-provider"
+RUN jenkins-plugin-cli --plugins "blueocean docker-workflow configuration-as-code job-dsl git config-file-provider groovy"
